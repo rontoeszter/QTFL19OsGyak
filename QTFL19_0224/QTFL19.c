@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    FILE *text;
+    text = fopen("Rontó.txt", "r");
+    fprintf(text, "Rontó Eszter, Programtervezõ info, QTFL19");
+    int fclose( FILE *text);
+    return 0;
+}
